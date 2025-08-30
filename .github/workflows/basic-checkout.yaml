@@ -31,3 +31,10 @@ jobs:
           echo "Node version: $(node --version)"
           echo "Python version: $(python --version)"
           echo "Git version: $(git --version)"
+
+      # check date
+      - name: check date
+        run: date
+
+      -name: check storage
+       run: df -h
