@@ -36,5 +36,5 @@ jobs:
       - name: check date
         run: date
 
-      -name: check storage
-       run: df -h
+      - name: check storage
+        run: df -h
